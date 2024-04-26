@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  width: 600px;
+  text-align: center;
+}
+.chamado {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.chamado-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chamado-actions {
+  margin-top: 10px;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.btn:hover {
+  background-color: #45a049;
+}
